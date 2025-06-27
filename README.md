@@ -7,8 +7,18 @@ Instalación directa vía archivo `.whl`.
 
 ## Instalación rápida
 
+Descarga e instala el archivo `.whl` correspondiente a tu sistema operativo:
+
+### Windows
+
 ```bash
-pip install https://github.com/acdeveloper-sci/acfortformat/releases/download/v0.1/acfortformat-0.1-py3-none-any.whl
+pip install https://github.com/acdeveloper-sci/acfortformat/releases/download/v0.1/acfortformat-0.1-cp38-cp38-win_amd64.whl
+```
+
+### Linux
+
+```bash
+pip install https://github.com/acdeveloper-sci/acfortformat/releases/download/v0.1/acfortformat-0.1-cp38-cp38-linux_x86_64.whl
 ```
 
 ---
