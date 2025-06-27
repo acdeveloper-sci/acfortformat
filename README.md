@@ -7,7 +7,7 @@ Instalación directa vía archivo `.whl`.
 
 ## Instalación rápida
 
-Descarga e instala el archivo `.whl` correspondiente a tu sistema operativo:
+Descarga e instala el archivo `.whl` correspondiente a tu sistema operativo y versión de Python:
 
 ### Windows
 
