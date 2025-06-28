@@ -1,7 +1,8 @@
 # ACFortFormat
 
 Utilidad de lectura y escritura estilo Fortran en Python.  
-Instalación directa vía archivo `.whl`.
+Soporte para formatos fijos, lectura libre, inferencia de tipo y salida formateada.<br>
+Instalación directa vía script install.py o archivo `.whl`.
 
 ---
 
