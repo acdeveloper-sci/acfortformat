@@ -5,23 +5,36 @@ Instalación directa vía archivo `.whl`.
 
 ---
 
-## Instalación rápida
+## Instalación recomendada
 
-Descarga e instala el archivo `.whl` correspondiente a tu sistema operativo y versión de Python:
+Puedes instalar automáticamente ACFortFormat ejecutando:
 
-### Windows
+```bash
+curl -O https://raw.githubusercontent.com/acdeveloper-sci/acfortformat/main/install.py
+python install.py
+```
+
+Este script detectará tu sistema operativo y versión de Python, descargará el `.whl` apropiado desde los Releases de este repositorio, y lo instalará con `pip`.
+
+> Requiere tener conexión a internet, `pip` disponible, y Python ≥ 3.7.
+
+---
+
+## Instalación manual
+
+También puedes instalar directamente el archivo `.whl` adecuado desde la sección [Releases](https://github.com/acdeveloper-sci/acfortformat/releases):
+
+### Windows (Python 3.8)
 
 ```bash
 pip install https://github.com/acdeveloper-sci/acfortformat/releases/download/v0.1/acfortformat-0.1-cp38-cp38-win_amd64.whl
 ```
 
-### Linux
+### Linux (Python 3.8)
 
 ```bash
 pip install https://github.com/acdeveloper-sci/acfortformat/releases/download/v0.1/acfortformat-0.1-cp38-cp38-linux_x86_64.whl
 ```
-
----
 
 Puedes verificar tu versión de Python con:
 
@@ -29,10 +42,9 @@ Puedes verificar tu versión de Python con:
 python --version
 ```
 
-
 y descarga:
-acfortformat-0.1-cp[version]-cp[version]-linux_x86_64.whl para Linux
-acfortformat-0.1-cp[version]-cp[version]-win_amd64.whl para Windows
+- acfortformat-0.1-cp[version]-cp[version]-linux_x86_64.whl para Linux
+- acfortformat-0.1-cp[version]-cp[version]-win_amd64.whl para Windows
 
 ---
 
