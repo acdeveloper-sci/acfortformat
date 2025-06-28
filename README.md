@@ -23,6 +23,20 @@ pip install https://github.com/acdeveloper-sci/acfortformat/releases/download/v0
 
 ---
 
+Puedes verificar tu versión de Python con:
+
+```bash
+python --version
+```
+
+
+y descarga:
+acfortformat-0.1-cp[version]-cp[version]-linux_x86_64.whl para Linux
+acfortformat-0.1-cp[version]-cp[version]-win_amd64.whl para Windows
+
+---
+
+
 ## Fortran-like I/O Utility – Funcionalidades clave
 
 ### LECTURA
