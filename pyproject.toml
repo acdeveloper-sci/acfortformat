@@ -1,0 +1,44 @@
+[project]
+name = "acfortformat"
+version = "0.1.3"
+authors = [
+  { name="Adolph J. Cardozo S.", email="ajcs.developer@gmail.com" },
+]
+description = "Python library for reading and writing data in Fortran-style and native Python formats."
+maintainers = [{name="ACAI Engineering IA", email="acai.engineering.ia@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["fortran", "io", "format", "read", "write", "scientific", "data processing"]
+license = { text = "MIT License" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "fortranformat>=1.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/acdeveloper-sci/acfortformat"
+Issues = "https://github.com/acdeveloper-sci/acfortformat/issues"
+"Source Code" = "https://github.com/acdeveloper-sci/acfortformat"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+acfortformat = "src/acfortformat"
+
+# [tool.setuptools.exclude-package-data."acfortformat"]
+# "*" = ["*.pyc", "*.bak"]
